@@ -19,7 +19,6 @@ async function xxcnTester(url: string): Promise<TestResult | null> {
         })
         .then((response) => {
             if (response.status === 200) {
-                //console.log(response.data);
                 const redirection = xxcnAnalyzer(response.data);
                 return {
                     domain,
@@ -32,7 +31,6 @@ async function xxcnTester(url: string): Promise<TestResult | null> {
             return null;
         })
         .catch((error) => {
-            //console.log(error);
             console.log(`error: ${domain}`);
             return null;
         });
