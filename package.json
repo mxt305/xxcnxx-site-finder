@@ -1,0 +1,19 @@
+{
+    "name": "xxcnxx-site-finder",
+    "version": "1.0.0",
+    "description": "The script to test site",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts"
+    },
+    "author": "mxt305",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "jsdom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.5.14",
+        "@types/jsdom": "^16.2.14"
+    }
+}
